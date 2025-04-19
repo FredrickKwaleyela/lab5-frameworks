@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Layout Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MySite</a>
+      <button id = "styled button" title = "styled button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Two-column layout -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-6">
+        <h2>Left Column</h2>
+        <p>This is the left side of the layout using Bootstrap’s grid system.</p>
+        <button class="btn btn-primary">Click Me</button>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-6">
+        <h2>Right Column</h2>
+        <p>This is the right side. Below is an example of a Bootstrap alert:</p>
+        <div class="alert alert-success" role="alert">
+          This is a success alert—check it out!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (for navbar toggle on mobile) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
